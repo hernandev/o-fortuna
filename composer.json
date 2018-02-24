@@ -1,0 +1,22 @@
+{
+    "name": "hernandev/o-fortuna",
+    "description": "O Fortuna: A generic billing library for recurring payments.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Diego Hernandes",
+            "email": "diego@hernandev.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": "^5.6"
+    },
+    "autoload": {
+        "O\\Fortuna\\": "src/"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "~1.0"
+    }
+}
